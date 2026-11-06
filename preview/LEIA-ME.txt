@@ -1,0 +1,18 @@
+PRÉVIA OFFLINE — FILIPE MONTEIRO / VIOLET GLASS
+
+1. Extraia todo o ZIP mantendo as pastas.
+2. Abra index.html no navegador.
+3. Role para explorar animações e filtros de projetos.
+4. Os quatro projetos têm ESTUDAR CASO e botão do GitHub.
+5. A pasta projetos/ contém quatro estudos de caso.
+
+IDENTIDADE: fundo preto profundo; textos e ações em branco; acentos roxos e cartões translúcidos.
+
+IMAGENS: LastFM / CoFree / Realeza usam capturas fornecidas pelo autor.
+Databricks × S3 usa ilustração fictícia, claramente identificada.
+A imagem de CRIAR CONTA foi retirada do Realeza Barbers.
+
+Esta é uma prévia HTML interativa; não substitui a validação do build Next.js.
+
+FOTO: retrato fornecido pelo autor. Não foi retocado; apenas redimensionado/comprimido.
+O diagrama de tecnologias está na seção Sobre.

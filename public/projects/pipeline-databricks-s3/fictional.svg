@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Ilustração abstrata de um pipeline de engenharia de dados: Databricks, bronze, silver, gold e AWS S3">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0d10"/><stop offset=".65" stop-color="#111318"/><stop offset="1" stop-color="#090a0d"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21242a"/><stop offset="1" stop-color="#101217"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e7eaf0" stop-opacity=".12"/><stop offset="1" stop-color="#e7eaf0" stop-opacity=".015"/></linearGradient>
+  <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#e1e3e7" stop-opacity=".08"/><stop offset=".52" stop-color="#73b5ff" stop-opacity=".9"/><stop offset="1" stop-color="#9fceff" stop-opacity=".12"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#368fff" stop-opacity=".19"/><stop offset="1" stop-color="#368fff" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+  <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".42"/></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#f5f5f5" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="1200" height="760" fill="url(#bg)"/>
+<rect width="1200" height="760" fill="url(#grid)"/>
+<ellipse cx="502" cy="396" rx="450" ry="308" fill="url(#glow)"/>
+<g font-family="Arial,sans-serif" fill="#f4f5f6">
+  <text x="64" y="72" font-size="16" font-weight="700" letter-spacing="4">DATA ENGINEERING / CLOUD</text>
+  <text x="64" y="126" font-size="37" font-weight="750" letter-spacing="-1.5">Databricks <tspan fill="#a8b0bc">×</tspan> S3</text>
+  <text x="64" y="160" font-size="16" fill="#a3a9b3">Transformação distribuída. Camadas que fazem sentido.</text>
+  <path d="M64 193H1136" stroke="#f4f5f7" stroke-opacity=".15"/>
+</g>
+<!-- Isometric medallion stack, graphite and silver with blue connector flows -->
+<g filter="url(#shadow)">
+  <g transform="translate(94 0)">
+    <path d="M92 360L393 237L689 359L388 484Z" fill="#2c3038" stroke="#afb8c4" stroke-opacity=".52" stroke-width="2"/>
+    <path d="M92 360L388 484V533L92 409Z" fill="#12141a" stroke="#606977" stroke-opacity=".5"/>
+    <path d="M388 484L689 359V408L388 533Z" fill="#1a1e25" stroke="#75808c" stroke-opacity=".55"/>
+    <text x="389" y="375" fill="#f7f8f9" font-size="23" font-weight="700" font-family="Arial" text-anchor="middle" letter-spacing="3">BRONZE</text>
+    <text x="389" y="399" fill="#adb5be" font-size="12" font-family="Arial" text-anchor="middle" letter-spacing="3">RAW / INGESTION</text>
+    <path d="M92 432L393 309L689 431L388 556Z" fill="#77808d" fill-opacity=".20" stroke="#e0e7f0" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M92 432L388 556V600L92 478Z" fill="#25282f"/><path d="M388 556L689 431V477L388 600Z" fill="#31353b"/>
+    <text x="389" y="447" fill="#f7f8f9" font-size="23" font-weight="700" font-family="Arial" text-anchor="middle" letter-spacing="3">SILVER</text>
+    <text x="389" y="472" fill="#c4ccd6" font-size="12" font-family="Arial" text-anchor="middle" letter-spacing="3">CLEAN / TRANSFORM</text>
+    <path d="M92 504L393 381L689 503L388 627Z" fill="#19314e" fill-opacity=".70" stroke="#6db6ff" stroke-opacity=".9" stroke-width="2"/>
+    <path d="M92 504L388 627V669L92 547Z" fill="#0b1829" stroke="#3c84cc" stroke-opacity=".60"/>
+    <path d="M388 627L689 503V547L388 669Z" fill="#112a42" stroke="#468ed2" stroke-opacity=".6"/>
+    <text x="389" y="523" fill="#f9fcff" font-size="23" font-weight="700" font-family="Arial" text-anchor="middle" letter-spacing="3">GOLD</text>
+    <text x="389" y="549" fill="#d0e2f7" font-size="12" font-family="Arial" text-anchor="middle" letter-spacing="3">CURATED / ANALYTICS</text>
+  </g>
+</g>
+<!-- Flow and realistic observability-style side panels -->
+<g transform="translate(885 238)" font-family="Arial,sans-serif">
+  <rect x="0" y="0" width="252" height="184" rx="18" fill="url(#panel)" stroke="#616b7b" stroke-opacity=".43"/>
+  <circle cx="24" cy="26" r="5" fill="#71afff"/><text x="41" y="31" font-size="13" letter-spacing="1.2" font-weight="700" fill="#e7ebf0">PROCESSING</text>
+  <path d="M22 50H229" stroke="#c8d3e2" stroke-opacity=".16"/>
+  <text x="22" y="78" font-size="13" font-family="monospace" fill="#a9b1bb">spark.read(...)</text>
+  <text x="22" y="112" font-size="13" font-family="monospace" fill="#b6c3d4">transform().join()</text>
+  <text x="22" y="146" font-size="13" font-family="monospace" fill="#87bcff">write.format('delta')</text>
+  <rect x="22" y="159" width="132" height="2" rx="1" fill="#6aa8fd"/>
+</g>
+<g transform="translate(885 442)" font-family="Arial,sans-serif">
+  <rect x="0" y="0" width="252" height="180" rx="18" fill="#12151a" stroke="#616b7b" stroke-opacity=".43"/>
+  <text x="22" y="34" font-size="13" letter-spacing="1.4" font-weight="700" fill="#e9eaed">AWS S3 / STORAGE</text>
+  <path d="M22 54H230" stroke="#c8d3e2" stroke-opacity=".14"/>
+  <text x="22" y="86" font-size="12" font-family="monospace" fill="#a9b1bd">bronze</text><rect x="96" y="76" width="125" height="9" rx="4.5" fill="#434851"/><rect x="96" y="76" width="95" height="9" rx="4.5" fill="#e1e2e5"/>
+  <text x="22" y="122" font-size="12" font-family="monospace" fill="#a9b1bd">silver</text><rect x="96" y="112" width="125" height="9" rx="4.5" fill="#434851"/><rect x="96" y="112" width="111" height="9" rx="4.5" fill="#c0c9d4"/>
+  <text x="22" y="158" font-size="12" font-family="monospace" fill="#a9b1bd">gold</text><rect x="96" y="148" width="125" height="9" rx="4.5" fill="#434851"/><rect x="96" y="148" width="125" height="9" rx="4.5" fill="#6baaff"/>
+</g>
+<path d="M779 466h55c23 0 25-46 51-46" fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-dasharray="5 8"/>
+<path d="M779 552h47c30 0 28-31 59-31" fill="none" stroke="url(#trace)" stroke-width="2" stroke-dasharray="5 8"/>
+<g fill="#f3f5f7" font-family="Arial,sans-serif"><text x="64" y="722" font-size="12" letter-spacing="2.5" fill="#9aa2ae">CONCEPT ART · MEDALLION ARCHITECTURE</text><text x="1136" y="722" font-size="12" letter-spacing="2.5" text-anchor="end" fill="#aeb5c0">F/M · SELECTED WORK</text></g>
+</svg>
