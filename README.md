@@ -1,91 +1,116 @@
-# Filipe Monteiro — Portfólio profissional
+<div align="center">
 
-Portfólio pessoal para apresentar Engenharia de Dados, Software, Backend e projetos full stack. Implementado em **Next.js + React + TypeScript**, com CSS próprio, Motion e Lucide. O conteúdo é em português do Brasil.
+# FILIPE MONTEIRO
 
-## Identidade — Violet Glass / Retrato e profundidade
+### Portfólio pessoal · Engenharia de Dados & Desenvolvimento Full Stack
 
-- **Preto profundo** como base, **branco** na tipografia e nas ações principais, **roxo ametista** nos pontos de atenção.
-- Foto pessoal original do autor no hero, sem retoque facial, acompanhada de cartões translúcidos com efeito *glassmorphism*, halos e órbitas discretas.
-- O diagrama interativo de tecnologias foi preservado e agora aparece na seção “Sobre”.
-- Assinatura **FILIPE MONTEIRO** centralizada, sem navbar tradicional nem linhas decorativas ao redor.
-- Animações de entrada ao rolar a página, filtros de projetos, diagrama tecnológico e terminal opcional, respeitando `prefers-reduced-motion`.
+**Dados, software e design conectados para transformar ideias em soluções reais.**
 
-## Projetos e imagens
+[![Next.js](https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6D42B8?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Motion](https://img.shields.io/badge/Motion-6D42B8?style=for-the-badge&logo=framer&logoColor=white)](https://motion.dev/)
 
-| Projeto | Visual no portfólio | Link externo |
-| --- | --- | --- |
-| LastFM Tracker | Captura real do dashboard fornecida pelo autor | `github.com/filipemtr/LastFM-Tracker` |
-| Databricks × S3 | **Ilustração fictícia** da arquitetura Medallion (Bronze, Silver, Gold) | `github.com/filipemtr/pipeline-databricks-s3` |
-| Realeza Barbers | **Somente a captura da página inicial**. A imagem do cadastro não faz parte do portfólio. | `github.com/filipemtr/Realeza_Barbers` |
-| CoFree | Composição de duas capturas fornecidas pelo autor | `github.com/filipemtr/CoFree` |
+<br>
 
-Todos os cards têm **ESTUDAR CASO** e um **ícone GitHub** independente, assim como o projeto destacado. As páginas de estudo de caso têm seus próprios links para o repositório.
+<img src="public/og-image.png" alt="Apresentação visual do portfólio de Filipe Monteiro" width="100%" />
 
-A origem de cada imagem está em [`docs/IMAGE_PROVENANCE.md`](docs/IMAGE_PROVENANCE.md). As capturas fornecidas pelo autor não demonstram, por si, que o projeto esteja em produção. Não foram inventadas métricas, resultados ou usuários.
+<br>
 
-## Executar o projeto Next.js
+[**GitHub**](https://github.com/filipemtr) · [**LinkedIn**](https://www.linkedin.com/in/filipemonteiro11) · [**Contato**](mailto:filipemtr11@gmail.com)
 
-Requer Node.js 22+ e npm.
+</div>
 
-```bash
-npm install
-npm run dev
-```
+---
 
-Abra <http://localhost:3000>.
+## Sobre o projeto
 
-Para produção:
+Este portfólio foi criado para ir além de uma apresentação tradicional de currículo. Ele reúne **minha trajetória, competências técnicas e projetos práticos** em uma experiência visual que combina identidade pessoal, interatividade e uma navegação intuitiva.
 
-```bash
-npm run typecheck
-npm run lint
-npm run build
-npm start
-```
+O foco está em duas áreas que se complementam: **Engenharia de Dados**, com pipelines, processamento distribuído e soluções em nuvem, e **Desenvolvimento de Software**, com aplicações web, APIs e arquitetura de sistemas.
 
-O arquivo `.env.example` apresenta o domínio configurável para metadados. Antes do deploy, configure `NEXT_PUBLIC_SITE_URL` com a URL real publicada, se necessário. O deploy pode ser feito pela Vercel conectando um repositório Git.
+## Identidade visual
 
-**Validação nesta revisão:** 14 arquivos TS/TSX passaram na verificação sintática; quatro projetos e links de GitHub verificados; prévia HTML testada com Chromium em sete larguras (320 a 1440 px), sem overflow horizontal nem erros JavaScript. O teste foi realizado com HTML/CSS/imagens embutidos no navegador porque a navegação direta a arquivos locais é bloqueada neste ambiente. O build Next.js com dependências reais não foi executado. Rode os comandos de produção antes de publicar.
+Uma interface **dark-first**, construída com uma paleta de **preto, roxo ametista e branco**, valorizando contraste, legibilidade e profundidade.
 
-## Abrir a prévia offline
+- **Glassmorphism:** painéis translúcidos, bordas sutis e camadas com efeito de vidro.
+- **Identidade pessoal:** fotografias integradas à composição e tipografia de destaque.
+- **Microinterações:** animações de entrada, transições e feedbacks visuais.
+- **Elementos gráficos:** órbitas, conexões, halos e referências a sistemas e dados.
+- **Responsividade:** layouts adaptados para desktop, tablet e dispositivos móveis.
 
-Extraia o ZIP de prévia separadamente e abra `index.html`. Ela contém HTML, CSS, JavaScript e imagens locais, sem exigir instalação do Next.js. As páginas em `projetos/` permitem consultar os quatro estudos de caso.
+## Experiência e funcionalidades
 
-## Atualizar conteúdo, projetos e imagens
+| Experiência | O que apresenta |
+| :--- | :--- |
+| **Hero personalizado** | Introdução profissional com fotografia, identidade visual e acesso rápido às principais seções. |
+| **Mapa interativo de tecnologias** | Exploração visual de competências e ferramentas do meu ecossistema técnico. |
+| **Projetos em destaque** | Cards com imagens, descrições, tecnologias e acesso aos repositórios. |
+| **Estudos de caso** | Páginas dedicadas a objetivos, decisões técnicas, desafios e aprendizados. |
+| **Filtros de projetos** | Navegação por áreas de atuação e tipos de solução. |
+| **Terminal demonstrativo** | Uma interação temática que reforça a proposta tecnológica do site. |
+| **Contato direto** | Links para GitHub, LinkedIn e e-mail. |
 
-- Informações profissionais, stack e dados dos projetos: `src/data/portfolio.ts`.
-- Página principal e ações dos cards: `app/page.tsx`.
-- Componentes visuais: `src/components/`.
-- Paleta e aparência: `app/globals.css` (seção final `F/M — VIOLET GLASS / 2026`).
-- Arquivos visuais: `public/projects/<slug>/` e foto pessoal em `public/images/`.
-- Cartões do retrato: `src/components/PortraitStage.tsx`.
-- Páginas completas: `app/projetos/[slug]/page.tsx`.
+## Projetos apresentados
 
-Depois de modificar o projeto, para regenerar a prévia (com TypeScript disponível):
+### 01 · LastFM Tracker
 
-```bash
-node scripts/build-preview.cjs
-node scripts/check-syntax.cjs
-```
+<img src="public/projects/lastfm-tracker/verified.png" alt="Dashboard do projeto LastFM Tracker" width="100%" />
 
-Links de contato e GitHub funcionam sem backend. O terminal interativo é uma simulação limitada a comandos documentados, e não executa comandos de sistema.
+Pipeline de Engenharia de Dados para explorar tendências musicais globais e por país, integrando **Python, Apache Airflow, PySpark, Databricks, AWS S3, Glue, Athena e Apache Superset**. A solução utiliza a arquitetura **Medallion** e modelagem dimensional para organizar os dados até a camada analítica.
 
-## Direção criativa e transparência
+[**Explorar repositório →**](https://github.com/filipemtr/LastFM-Tracker)
 
-A referência de composição foi o site [thainanprado.com.br](https://thainanprado.com.br/): uso de retrato, informações em primeiro plano e hierarquia de conteúdo. O design aqui foi redesenhado especificamente para Filipe, com formas, texto, conteúdo e implementação originais; **nenhum arquivo de imagem, código, marca ou conteúdo daquele site foi copiado**.
+### 02 · Databricks × S3
 
-A foto em `public/images/filipe-portrait.webp` foi fornecida diretamente pelo autor. O processo apenas redimensionou/comprimiu a foto para otimização, sem modificar traços do rosto. `public/og-image.png` inclui a foto para compartilhamento social.
+<img src="public/projects/pipeline-databricks-s3/fictional.svg" alt="Ilustração conceitual da arquitetura Databricks e AWS S3" width="100%" />
 
-O arquivo `scripts/build-preview.cjs` gera novamente a prévia offline e copia automaticamente as imagens. O arquivo `scripts/qa_violet.py` documenta a inspeção via Chromium, executada com recursos locais embutidos porque a navegação por `file://` foi bloqueada aqui.
+Projeto de pipeline ETL com **Databricks, PySpark, AWS S3 e Delta Lake**, estruturado em camadas **Bronze, Silver e Gold**. A imagem é uma representação conceitual da arquitetura.
 
+[**Explorar repositório →**](https://github.com/filipemtr/pipeline-databricks-s3)
 
-## Refinamento de interface — 05/11/2026
+### 03 · Realeza Barbers
 
-- Links sociais no rodapé ampliados com ícones do LinkedIn, GitHub e e-mail, preservando destinos clicáveis.
-- Monograma F/M do diagrama passou a ser desenhado dentro do SVG na posição exata do núcleo (x=287, y=207), evitando desvios de alinhamento.
-- Tipografia de «CONSTRUIR» revisada: espaçamento entre letras mais natural e tamanho responsivo, sem sobreposição visual.
-- Versão de visualização offline regenerada a partir do código.
+<img src="public/projects/realeza-barbers/verified.png" alt="Interface principal do Realeza Barbers" width="100%" />
 
+Aplicação web voltada à experiência e ao gerenciamento de uma barbearia, com foco em **agendamentos, clientes, serviços e interface responsiva**. O projeto explora desenvolvimento frontend com **React, TypeScript e Tailwind CSS**.
 
-### Ajuste pontual da foto em pé
-Foi ampliado apenas o retrato recortado da seção de contato (`.contact-photo-wrap`) em desktop, tablet e mobile, sem mexer na foto principal, no conteúdo ou no restante do design.
+[**Explorar repositório →**](https://github.com/filipemtr/Realeza_Barbers)
+
+### 04 · CoFree
+
+<img src="public/projects/cofree/verified.png" alt="Interfaces do projeto CoFree" width="100%" />
+
+Plataforma acadêmica de **segurança digital e conscientização sobre vazamentos de credenciais**, combinando desenvolvimento web e backend. O projeto aborda **React, TypeScript, FastAPI, PostgreSQL, Celery, Redis** e práticas de proteção de contas. **Projeto em evolução.**
+
+[**Explorar repositório →**](https://github.com/filipemtr/CoFree)
+
+## Tecnologias do portfólio
+
+| Camada | Tecnologias |
+| :--- | :--- |
+| **Aplicação** | Next.js · React · TypeScript |
+| **Estilização** | CSS personalizado · Design responsivo · Glassmorphism |
+| **Animações** | Motion · Transições CSS |
+| **Interface** | Lucide Icons · Componentes reutilizáveis |
+| **Estrutura** | App Router · Páginas dinâmicas de projetos |
+
+## O propósito
+
+Mais do que listar tecnologias, este projeto busca **mostrar como penso, construo e comunico soluções**. Cada seção foi pensada para apresentar não só o resultado visual, mas também as decisões, os desafios e os aprendizados por trás dos projetos.
+
+<div align="center">
+
+---
+
+### Vamos construir algo?
+
+Estou aberto a conexões, oportunidades e projetos nas áreas de **Engenharia de Dados, Backend e Desenvolvimento Full Stack**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/filipemtr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D42B8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filipemonteiro11)
+[![E--mail](https://img.shields.io/badge/E--mail-111111?style=for-the-badge&logo=gmail&logoColor=white)](mailto:filipemtr11@gmail.com)
+
+<sub>Desenvolvido por Filipe Monteiro · Caruaru, Pernambuco</sub>
+
+</div>
